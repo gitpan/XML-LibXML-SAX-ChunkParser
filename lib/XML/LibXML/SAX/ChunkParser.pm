@@ -1,4 +1,4 @@
-# $Id: /mirror/coderepos/lang/perl/XML-LibXML-SAX-ChunkParser/trunk/lib/XML/LibXML/SAX/ChunkParser.pm 68839 2008-08-16T23:26:46.986279Z daisuke  $
+# $Id: /mirror/coderepos/lang/perl/XML-LibXML-SAX-ChunkParser/trunk/lib/XML/LibXML/SAX/ChunkParser.pm 87623 2008-10-09T08:23:46.440905Z daisuke  $
 
 package XML::LibXML::SAX::ChunkParser;
 use strict;
@@ -6,7 +6,7 @@ use base qw(XML::SAX::Base);
 use XML::LibXML;
 use Carp qw(croak);
 
-our $VERSION = '0.00002';
+our $VERSION = '0.00003';
 
 sub parse_chunk {
     my ($self, $chunk) = @_;
