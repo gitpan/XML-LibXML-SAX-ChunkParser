@@ -3,26 +3,40 @@ abstract: 'Parse XML Chunks Via LibXML SAX'
 author:
   - 'Daisuke Maki C<< <daisuke@endeworks.jp> >>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
-  Test::More: 0
+  ExtUtils::MakeMaker: '6.36'
+  Test::More: '0'
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  CPAN::Meta: '0'
+  CPAN::Meta::Prereqs: '0'
+  Module::Build: '0.38'
+dynamic_config: 0
+generated_by: 'Minilla/v0.12.0, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: XML-LibXML-SAX-ChunkParser
 no_index:
   directory:
-    - inc
     - t
     - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  XML::LibXML::SAX::ChunkParser:
+    file: lib/XML/LibXML/SAX/ChunkParser.pm
+    version: '0.00007'
 requires:
-  XML::LibXML: 1.66
-  XML::SAX: 0
+  XML::LibXML: '1.66'
+  XML::SAX: '0'
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.00006
+  bugtracker: https://github.com/lestrrat/XML-LibXML-SAX-ChunkParser/issues
+  homepage: https://github.com/lestrrat/XML-LibXML-SAX-ChunkParser
+  repository: git://github.com/lestrrat/XML-LibXML-SAX-ChunkParser.git
+version: '0.00007'
+x_contributors:
+  - 'Daisuke Maki <lestrrat+github@gmail.com>'

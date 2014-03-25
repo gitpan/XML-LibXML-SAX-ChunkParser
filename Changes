@@ -1,6 +1,10 @@
 Changes
 =======
 
+0.00007 2014-03-25T12:41:24Z
+    - Fix rt#94173 by freeing the handler at finish time
+    - Use Minilla for packaging the dist
+
 0.00006 - 20 Oct 2012
     - No code change
     - Upgrade to Module::Install 1.06
